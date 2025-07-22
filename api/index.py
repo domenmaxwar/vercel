@@ -21,12 +21,12 @@ app.secret_key = os.getenv('SECRET_KEY', 'your-secret-key-here')  # For sessions
 TOKEN = os.getenv('TOKEN')
 if not TOKEN:
     raise ValueError("Bot token is not set in environment variables! Set 'TOKEN' in Vercel settings.")
-CHANNEL_USERNAME = '@cdntelegraph'  # Channel username
+CHANNEL_USERNAME = '@cdngt'  # Channel username
 BASE_API_URL = f"https://api.telegram.org/bot{TOKEN}"
-ADMIN_IDS = [6099917788]  # Replace with your admin user IDs
+ADMIN_IDS = [7022663991]  # Replace with your admin user IDs
 MAX_FILE_SIZE_MB = 4000  # Maximum file size in MB
 RATE_LIMIT = 3  # Files per minute per user
-BOT_USERNAME = "IP_AdressBot"  # Your bot's username
+BOT_USERNAME = "CDNGTBOT"  # Your bot's username
 
 # User data and file storage (in memory for simplicity; use a database in production)
 uploaded_files = {}
